@@ -37,6 +37,7 @@ gem 'versionist'
 gem 'active_model_serializers', '~> 0.10.0'
 
 gem 'devise_token_auth'
+gem 'devise-i18n'
 
 gem 'jwt'
 
