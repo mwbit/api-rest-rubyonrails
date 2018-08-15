@@ -49,7 +49,7 @@ group :development, :test do
 
   #A library for generating fake data such as names, addresses, and phone numbers
   gem 'faker'
-
+  gem 'rspec-rails', '~> 3.7'
   gem 'pry-rails'
 end
 
