@@ -1,4 +1,10 @@
 class Contact < ApplicationRecord
+    validates_presence_of :kind
+    validates_presence_of :address
+    
+    
+
+
     belongs_to :kind, optional: true
     has_many :phones 
     has_one :address
